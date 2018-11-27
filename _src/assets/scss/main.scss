@@ -1,7 +1,8 @@
-@import 'core/settings';
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	height: 100vh;
-	background-color: pink;
-}
+@import 'core/functions';
+@import 'components/typography';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/home';
+
+
