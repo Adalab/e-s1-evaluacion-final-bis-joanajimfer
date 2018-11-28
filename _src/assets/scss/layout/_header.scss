@@ -1,0 +1,36 @@
+.header__logo {
+    width: 155px;
+    height: 60px;
+    display: block;
+    margin: 10px auto 0px auto;
+}
+.header__menu {
+    list-style: none;
+    font-family: $LetterFamily;
+    font-weight: $LetterSlim;
+    font-size: $LetterSizeStandar;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center; 
+    padding-left: 0px; 
+    margin-top: 0px; 
+
+}
+.menu__contact__link {
+    color: $colorDarkLetters;
+        &:link {
+    text-decoration: none;
+        }
+}
+.menu__blog__link {
+    color: $colorDarkLetters;
+        &:link {
+    text-decoration: none;
+    }
+}
+.menu__blog, .menu__contact {
+    padding: 10px 20px 7px 20px;
+}
+.menu__contact {
+    padding: 10px 7px 20px;
+}
