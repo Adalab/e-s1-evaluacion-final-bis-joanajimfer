@@ -1,0 +1,12 @@
+.page__footer {
+    height: 90px;
+    background-color: $colorMediumDark;
+    color: $colorMediumLight;
+    font-family: $LetterFamily;
+    font-size: $LetterSizeStandar;
+}
+.copyright__info {
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}

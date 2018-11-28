@@ -3,6 +3,9 @@
     height: 60px;
     display: block;
     margin: 10px auto 0px auto;
+        @media all and (min-width:768px) {
+            margin: 20px 30px;
+        }
 }
 .header__menu {
     list-style: none;
@@ -14,7 +17,9 @@
     justify-content: center; 
     padding-left: 0px; 
     margin-top: 0px; 
-
+        @media all and (min-width:768px) {
+            
+        }
 }
 .menu__contact__link {
     color: $colorDarkLetters;
