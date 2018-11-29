@@ -1,0 +1,21 @@
+.main__hero {
+    background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main__tittle {
+    color: $colorEgg;
+    font-size: $LetterSizeTittles;
+    font-family: $LetterFamily;
+    font-weight: 700;
+}
+.main__hero__text {
+    padding: 20px;
+    height: 108px;
+    width: 161px;
+}
