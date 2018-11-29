@@ -1,57 +1,71 @@
 .page__header {
-    position: fixed;
-    background-color: $colorEgg;
-    width: 100%;
-    @media all and (min-width:768px) {
-        display: flex;
-        align-items: center; 
-        justify-content: space-between;
-    }
-}
-.header__logo {
-    width: 155px;
-    height: 60px;
-    display: block;
-    margin: 10px auto 0px auto;
-        @media all and (min-width:768px) {
-            margin: 20px 30px;
-        }
-        @media all and (min-width:1024px) {
-            margin-left: 50px;
-        }
-}
-.header__menu {
-    list-style: none;
-    font-family: $LetterFamily;
-    font-weight: $LetterSlim;
-    font-size: $LetterSizeStandar;
-    text-transform: uppercase;
+  position: fixed;
+  background-color: $colorEgg;
+  width: 100%;
+  z-index: 999;
+
+  @media all and (min-width: 768px) {
     display: flex;
-    justify-content: center; 
-    padding-left: 0px; 
-    margin-top: 0px; 
-        @media all and (min-width:768px) {
-            margin-right: 30px;
-        }
-        @media all and (min-width:1024px) {
-            margin-right: 50px;
-        }
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-.menu__blog__link, .menu__contact__link {
-    color: $colorDarkLetters;
-        &:link {
-            text-decoration: none;
-        }
-        &:hover {
-            color: $colorSky;
-            border-bottom: 1px solid $colorSky;
-            transition: color ease 2s;
-        }
+.header__logo {
+  width: 155px;
+  height: 60px;
+  display: block;
+  margin: 10px auto 0px auto;
+
+  @media all and (min-width: 768px) {
+    margin: 20px 30px;
+  }
+
+  @media all and (min-width:1024px) {
+    margin-left: 50px;
+  }
 }
-.menu__blog, .menu__contact {
-    padding: 10px 20px 7px 20px;
+
+.header__menu {
+  list-style: none;
+  font-family: $LetterFamily;
+  font-weight: $LetterSlim;
+  font-size: $LetterSizeStandar;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 0px;
+
+  @media all and (min-width: 768px) {
+    margin-right: 30px;
+  }
+
+  @media all and (min-width:1024px) {
+    margin-right: 50px;
+  }
 }
+
+.menu__blog__link,
+.menu__contact__link {
+  color: $colorDarkLetters;
+
+  &:link {
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $colorSky;
+    border-bottom: 1px solid $colorSky;
+    transition: color ease 2s;
+  }
+}
+
+.menu__blog,
 .menu__contact {
-    padding: 10px 7px 13px;
+  padding: 10px 20px 7px 20px;
+}
+
+.menu__contact {
+  padding: 10px 7px 13px;
 }
