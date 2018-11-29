@@ -37,17 +37,17 @@
             margin-right: 50px;
         }
 }
-.menu__contact__link {
+
+.menu__blog__link, .menu__contact__link {
     color: $colorDarkLetters;
         &:link {
-    text-decoration: none;
+            text-decoration: none;
         }
-}
-.menu__blog__link {
-    color: $colorDarkLetters;
-        &:link {
-    text-decoration: none;
-    }
+        &:hover {
+            color: $colorSky;
+            border-bottom: 1px solid $colorSky;
+            transition: color ease 2s;
+        }
 }
 .menu__blog, .menu__contact {
     padding: 10px 20px 7px 20px;
