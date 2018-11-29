@@ -13,9 +13,18 @@
     font-size: $LetterSizeTittles;
     font-family: $LetterFamily;
     font-weight: 700;
+    @media all and (min-width:768px) {
+        font-size: $LetterSizeGigant;
+    }
 }
 .main__hero__text {
     padding: 20px;
-    height: 108px;
     width: 161px;
+        @media all and (min-width:768px) {
+            padding: 30px;
+            width: 322px;
+        }
+        @media all and (min-width:1024px) {
+            padding: 50px;
+        }
 }
