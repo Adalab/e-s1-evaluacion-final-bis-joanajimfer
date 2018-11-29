@@ -4,6 +4,8 @@
     color: $colorMediumLight;
     font-family: $LetterFamily;
     font-size: $LetterSizeStandar;
+    position: relative;
+    bottom: -10px;
 }
 .copyright__info {
     display: flex;
